@@ -1,10 +1,22 @@
+#███████╗░█████╗░██╗░░██╗███████╗██╗░░░██╗░██████╗███████╗██████╗░
+#██╔════╝██╔══██╗██║░██╔╝██╔════╝██║░░░██║██╔════╝██╔════╝██╔══██╗
+#█████╗░░███████║█████═╝░█████╗░░██║░░░██║╚█████╗░█████╗░░██████╔╝
+#██╔══╝░░██╔══██║██╔═██╗░██╔══╝░░██║░░░██║░╚═══██╗██╔══╝░░██╔══██╗
+#██║░░░░░██║░░██║██║░╚██╗███████╗╚██████╔╝██████╔╝███████╗██║░░██║
+#╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝░╚═════╝░╚═════╝░╚══════╝╚═╝░░╚═╝
+
+#GitHub - https://github.com/MarkovvvvvkaYT/FakeUser
+#Telegram bot - @FakeUserAPI_bot (It's working)
+#Hosting - https://www.pythonanywhere.com
+#API - https://api-ninjas.com/api/randomuser
+
 import requests as r
 import telebot
 
 #_______________________________________________________________________________________
-TOKEN = '7705720497:AAHN9dAuk4FYhJtCZ0z9CyBBqRxgpVqx4Ao'
+TOKEN = ''
 api_url = 'https://api.api-ninjas.com/v1/randomuser'
-api = 'ACrq8HkggvM6bps6lp81NQ==dHwinqf6Xz77mytL'
+api = ''
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
